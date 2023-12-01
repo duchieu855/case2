@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./src/App.css">
+    <title>Lab7</title>
+  </head>
+  <body>
+    <div id="container">
+      <!-- Use the header area for the website name or logo -->
+      <header>
+          <a href="index.html"><img src="./images/logo.png" alt="VUS Fitness Club logo"></a>
+      </header>
+
+      <!-- Use the nav area to add hyperlinks to other pages within the website -->
+      <nav>
+          <ul>
+              <li id="Home"><a href="#">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="classes.html">Classes</a></li>
+              <li><a href="nutrition.html">Nutrition</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+      </nav>
+
+      <!-- Use the main area to add the main content of the webpage -->
+      <main>
+
+          <!-- <p>Welcome to VUS Fitness Club. Our mission is to help our clients meet their fitness and nutrition goals.</p>
+          <div class="mobile">
+              <h3>FREE One-Week Trial Membership!</h3>
+              <p><a href="tel: 02871093333">Call Us Today to Get Started</a></p>
+
+              <h4>Fitness Club Hours:</h4>
+              <p>Monday - Thursday: 6:00am - 6:00pm<br> Friday: 6:00am - 6:00pm<br> Saturday: 8:00am - 6:00pm<br> Sunday: Closed</p>
+          </div> -->
+          <div class="desktop">
+              <!-- slides show -->
+              <div class="w-full my-4">
+                <div class="w-full">
+                  <a class="slideItem" href="#">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1682695796497-31a44224d6d6?ixlib=rb-4.0.3&i class=MslideItemjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60" alt="img1">
+                  </a>
+                  <a class="slideItem" href="#">
+                    <img class="w-full" src="https://plus.unsplash.com/premium_photo-1696879454010-6aed21c32fc5?ixlib=rb-4.0.3&i class=MslideItemjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60" alt="img2">
+                  </a>
+                  <a class="slideItem" href="#">
+                    <img class="w-full" src="https://images.unsplash.com/photo-1682685796444-acc2f5c1b7b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60" alt="img3">
+                  </a>
+                </div>
+
+                <div class="flex justify-around my-2">
+                  <button id="Pre" type="button" class="p-2 bg-blue-500 text-white" onclick="pushSlides(-1)">Preview</button>
+                  <button id="Next" type="button" class="p-2 bg-blue-500 text-white" onclick="pushSlides(1)">Next</button>
+                </div>
+
+              </div>
+              <p>If you have struggled with getting healthy and need the motivation and resources to make a healthy lifestyle change, contact us today. Our facility includes state-of-the-art equipment, convenient group training classes, and nutrition tips
+                  and information to keep you healthy.</p>
+              <p>We provide a FREE, one-week membership to experience the benefits of our equipment and facility. This one-week trial gives you complete access to our equipment, training classes, and nutrition planning. Contact us today to start your free
+                  trial!
+              </p>
+              
+              <h1>FREE Trial Membership</h1>
+              <h1>Start Today!</h1>
+              
+              <!-- <figure>
+                  <a href="classes.html"><img src="./images/group.jpg" alt="group fitness"></a>
+                  <a href="nutrition.html"><img src="./images/nutrition.jpg" alt="good nutrition"></a>
+                  <a href="contact.html"><img src="./images/signup.jpg" alt="sign up icon"></a>
+              </figure> -->
+          </div>
+      </main>
+
+      <!-- Use the footer area to add webpage footer content -->
+      <footer>
+          &copy; Copyright 2021. All Rights Reserved.<br>
+          <a href="mailto:vusfitness@club.com">vusfitness@club.com</a>
+      </footer>
+  </div>
+    
+    <script src="./main.js"></script>
+  </body>
+</html>
